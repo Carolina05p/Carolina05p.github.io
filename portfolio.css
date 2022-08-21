@@ -12,7 +12,7 @@ body {
     opacity: 1; /*This and transition affect the page loading fade in effect */
     transition: 3s opacity; /*This causes a 3 second fade in */
     letter-spacing: .2vw; /*vw is a relative measurement, 1vw is equal to 1% of the viewport width */
-    font-family: Avant Garde, Helvetica;
+    font-family: Arial, Helvetica, sans-serif, Helvetica;
     font-size: 1.5 vw;
     overflow-x: hidden;/*This prevents the horizontal scroll bar from appearing when the quote is hovered over */
     user-select: none; /*This prevents the text on the webpage from being highlighted by the user */
@@ -47,9 +47,9 @@ h1:hover {
 
 /* Paragraph elements */
 p {
-    font-family: "Goudy Bookletter 1911", sans-serif Bold;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: justify; /* Justify text within paragraph elements */
-    letter-spacing: 1vw; /* This expands the text slightly */
+    letter-spacing: 0.50vw; /* This expands the text slightly */
     font-size: 2.5vw;
     padding-left: 1vw; /* Adds padding to the left of the paragraph element */
     padding-right: 1vw; /* Adds padding to the right of the paragraph element */
@@ -262,7 +262,7 @@ footer {
     bottom: 0; /* This property sets the text at the bottom of the image */
     width: 100%; /* The element covers the full width of the image */
     text-align: center; /* The text is center aligned within the image */
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: Arial, Helvetica, sans-serif Bold;
     letter-spacing: .1vw; /* This gives slight spacing between the letters */
     font-size: 1.5vw; /* Font size is relative to the size of the viewport width */
     background-color: rgba(0, 0, 0, 0.75); /* Gives a slightly transparent black background */
